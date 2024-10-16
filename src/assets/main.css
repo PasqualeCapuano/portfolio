@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --color-primary-a0: #ffffff;
+  --color-primary-a5: #eaebf3;
+  --color-primary-a10: #d5d6e6;
+  --color-primary-a15: #c0c3da;
+  --color-primary-a20: #acafcd;
+  --color-primary-a25: #989cc1;
+  --color-primary-a30: #838ab5;
+  --color-primary-a35: #6f78a9;
+  --color-primary-a40: #5b669d;
+  --color-primary-a45: #465591;
+  --color-primary-a50: #3f4c80;
+  --color-primary-a55: #38426f;
+  --color-primary-a60: #31395f;
+  --color-primary-a65: #2a304f;
+  --color-primary-a70: #23283f;
+  --color-primary-a75: #1d2031;
+  --color-primary-a80: #161822;
+  --color-primary-a85: #0d0e15;
+  --color-primary-a100: #000000;
+}
+
+* {
+  font-family: 'Montserrat', sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+h5 {
+  font-size: 1.25rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
