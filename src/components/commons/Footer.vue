@@ -1,11 +1,11 @@
 <template>
-  <v-footer dark color="#23283f" class="d-flex justify-center">
+  <v-footer dark color="#52796f" class="d-flex justify-center">
     <v-container>
       <v-row>
         <v-col align="center" cols="3"></v-col>
         <v-col align="center" cols="6">
           <p>
-            &copy; {{ counterStore.year }} Your Company. All rights reserved
+            &copy; {{ counterStore.year }} All rights reserved
             {{ counterStore.author }}
           </p></v-col
         >

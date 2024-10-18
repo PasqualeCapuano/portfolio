@@ -1,24 +1,21 @@
 <template>
-  <v-container>
-    <v-row>
-      <v-col align="center">
-        <v-card>
+  <v-container class="d-flex" fluid>
+    <v-row justify="center">
+      <v-col md="8" sm="12" align="center">
+        <v-card class="pa-5">
           <v-card-title>
-            <v-avatar color="primary" size="200">
-              <v-img
-                src="https://static.everypixel.com/ep-pixabay/0329/8099/0858/84037/3298099085884037069-head.png"
-                cover
-              ></v-img>
+            <v-avatar size="300">
+              <v-img :src="avatarImage" cover></v-img>
             </v-avatar>
           </v-card-title>
           <v-card-title>
-            <h1>{{ store.author }}</h1>
+            {{ store.author }}
           </v-card-title>
           <v-card-subtitle>
             <p>{{ store.jobTitle }} @ {{ store.company }}</p>
           </v-card-subtitle>
-          <v-divider></v-divider>
-          <v-text class="pa-3">
+          <v-divider class="my-3" length="200"></v-divider>
+          <v-text class="pa-5">
             <p>{{ store.bio }}</p>
           </v-text>
 
@@ -31,6 +28,7 @@
 
 <script setup>
 import { settingStore } from '../../stores/personal'
+import avatarImage from '@/assets/images/linkedin.jpeg'
 import Socials from './Socials.vue'
 
 const store = settingStore()

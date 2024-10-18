@@ -20,6 +20,6 @@ const counterStore = settingStore()
 @import '../assets/main.css';
 
 .main {
-  background-color: var(--color-primary-a60);
+  background-color: var(--personal-secondary);
 }
 </style>

@@ -1,14 +1,14 @@
 <template>
   <v-container>
     <v-row>
-      <v-col align="center">
+      <v-col md="12" sm="12" align="center">
         <v-btn
           v-for="social in store.socials"
           :key="social.id"
           :href="social.url"
           target="_blank"
           :color="social.color"
-          class="mx-2"
+          class="ma-2"
         >
           <Icon :icon="social.icon" />
         </v-btn>

@@ -2,24 +2,23 @@
 
 :root {
   --color-primary-a0: #ffffff;
-  --color-primary-a5: #eaebf3;
-  --color-primary-a10: #d5d6e6;
-  --color-primary-a15: #c0c3da;
-  --color-primary-a20: #acafcd;
-  --color-primary-a25: #989cc1;
-  --color-primary-a30: #838ab5;
-  --color-primary-a35: #6f78a9;
-  --color-primary-a40: #5b669d;
-  --color-primary-a45: #465591;
-  --color-primary-a50: #3f4c80;
-  --color-primary-a55: #38426f;
-  --color-primary-a60: #31395f;
-  --color-primary-a65: #2a304f;
-  --color-primary-a70: #23283f;
-  --color-primary-a75: #1d2031;
-  --color-primary-a80: #161822;
-  --color-primary-a85: #0d0e15;
+  --color-primary-a10: #dbe2f2;
+  --color-primary-a20: #b8c6e5;
+  --color-primary-a30: #93abd8;
+  --color-primary-a40: #6d90cb;
+  --color-primary-a50: #4177be;
+  --color-primary-a60: #375e95;
+  --color-primary-a70: #2c476e;
+  --color-primary-a80: #213049;
+  --color-primary-a90: #151b27;
   --color-primary-a100: #000000;
+
+  --personal-primary: #cad2c5;
+  --personal-secondary: #84a98c;
+  --personal-tertiary: #52796f;
+  --personal-quaternary: #354f52;
+  --personal-quinary: #2f3e46;
+  --personal-senary: #2b2f33;
 }
 
 * {
