@@ -3,7 +3,7 @@
     <v-row>
       <v-col align="center">
         <v-card>
-          <v-tabs v-model="tab" bg-color="primary">
+          <v-tabs v-model="tab" bg-color="#23283f">
             <v-tab value="one">Experiences</v-tab>
             <v-tab value="two">Education</v-tab>
             <v-tab value="three">Languages</v-tab>
@@ -26,6 +26,9 @@
                   <v-card-text>
                     <p>{{ item.period }}</p>
                   </v-card-text>
+                  <v-card-text>
+                    <p>{{ item.description }}</p>
+                  </v-card-text>
                   <v-chip
                     class="ma-1"
                     color="primary"
@@ -36,10 +39,49 @@
                 </v-card>
               </v-tabs-window-item>
 
-              <v-tabs-window-item value="two"> Two </v-tabs-window-item>
+              <v-tabs-window-item value="two">
+                <v-card
+                  class="experience my-5 py-5"
+                  v-for="(item, index) in store.education"
+                >
+                  <v-card-title>{{ item.school }}</v-card-title>
+                  <v-card-subtitle>
+                    <p>{{ item.name }}</p>
+                  </v-card-subtitle>
+                  <v-card-text>
+                    <p>{{ item.data }}</p>
+                  </v-card-text>
+                </v-card>
+              </v-tabs-window-item>
 
-              <v-tabs-window-item value="three"> Three </v-tabs-window-item>
-              <v-tabs-window-item value="four"> Four </v-tabs-window-item>
+              <v-tabs-window-item value="three">
+                <v-card
+                  class="experience my-5 py-5"
+                  v-for="(item, index) in store.languages"
+                >
+                  <v-card-title
+                    ><Icon :icon="item.flag" class="mx-2" />
+                    {{ item.name }}</v-card-title
+                  >
+                  <v-card-subtitle>
+                    <p>{{ item.level }}</p>
+                  </v-card-subtitle>
+                  <v-card-subtitle>
+                    <p>{{ item.details }}</p>
+                  </v-card-subtitle>
+                </v-card>
+              </v-tabs-window-item>
+              <v-tabs-window-item value="four">
+                <v-card
+                  class="experience my-5 py-5"
+                  v-for="(item, index) in store.certificates"
+                >
+                  <v-card-title> {{ item.title }}</v-card-title>
+                  <v-card-subtitle>
+                    <p>{{ item.institution }}</p>
+                  </v-card-subtitle>
+                </v-card>
+              </v-tabs-window-item>
             </v-tabs-window>
           </v-card-text>
         </v-card>
