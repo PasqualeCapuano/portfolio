@@ -13,7 +13,10 @@
           <v-card-text>
             <v-tabs-window v-model="tab">
               <v-tabs-window-item value="one">
-                <v-card v-for="(item, index) in store.previousCompanies">
+                <v-card
+                  class="experience my-5 py-5"
+                  v-for="(item, index) in store.previousCompanies"
+                >
                   <v-card-title
                     >{{ item.name }}, {{ item.location }}</v-card-title
                   >
@@ -27,7 +30,8 @@
                     class="ma-1"
                     color="primary"
                     v-for="chip in store.previousCompanies[index].technologies"
-                    ><Icon :icon="chip.icon" /> {{ chip.name }}</v-chip
+                    ><Icon :icon="chip.icon" class="mx-2" />
+                    {{ chip.name }}</v-chip
                   >
                 </v-card>
               </v-tabs-window-item>
@@ -54,4 +58,9 @@ const store = settingStore()
 const tab = ref('one')
 </script>
 
-<style></style>
+<style>
+.experience {
+  text-align: left;
+  border-left: 3px solid #1976d2;
+}
+</style>
