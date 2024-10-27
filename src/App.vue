@@ -9,6 +9,7 @@ const summer = ['🌞', '🏖️', '🍉', '🌊', '🏄', '🌴']
 const autumn = ['🍁', '🍂', '🎃', '🌰', '🦉', '🔥']
 const defaultEmojis = ['🌟', '✨']
 
+
 const emojiContainer = ref(null)
 
 const shuffleArray = array => {
