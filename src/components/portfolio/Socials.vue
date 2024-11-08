@@ -23,5 +23,4 @@ import { Icon } from '@iconify/vue'
 
 const store = settingStore()
 
-console.log(store.socials)
 </script>

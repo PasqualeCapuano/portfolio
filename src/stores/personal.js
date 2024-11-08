@@ -9,22 +9,21 @@ export const settingStore = defineStore('settings', {
     year: new Date().getFullYear(),
     jobTitle: 'Software Engineer',
     company: 'Iliad Italia SPA 🚀',
-    bio: "I am a Software Engineer with a passion for web and mobile development. I am constantly dedicated to creating effective and aesthetically pleasing solutions, well-designed to meet users' needs. With a particular focus on details and usability, I work to deliver high-quality digital experiences that are both functional and enjoyable to use.",
+    bio: "I am a Software Engineer with a passion for web and mobile development. I am dedicated to consistently creating effective and visually appealing solutions, carefully designed to meet users' needs. With a strong focus on detail and usability, I strive to deliver high-quality digital experiences that are both functional and enjoyable to use.",
     socials: [
-      { id: 1, name: 'LinkedIn', url: 'https://www.linkedin.com/in/pasqualecapuano/', icon: 'logos:linkedin-icon' },
-      { id: 2, name: 'GitHub', url: '', icon: 'logos:github-icon' },
-      { id: 3, name: 'Instagram', url: 'https://www.instagram.com/pasqualecapuano/', icon: 'logos:instagram-icon' },
-      { id: 4, name: 'Facebook', url: 'https://www.facebook.com/pasqualecapuano', icon: 'logos:facebook' },
-      { id: 5, name: 'Email', url: 'mailto:pasqualecapuano91@gmail.com', icon: 'logos:google-gmail' }
+      { id: 1, name: 'LinkedIn', url: 'https://www.linkedin.com/in/pasquale-capuano/', icon: 'logos:linkedin-icon' },
+      { id: 2, name: 'GitHub', url: 'https://github.com/PasqualeCapuano', icon: 'logos:github-icon' },
+      { id: 3, name: 'Instagram', url: 'https://www.instagram.com/the.real.capu/', icon: 'logos:instagram-icon' },
+      { id: 4, name: 'Email', url: 'mailto:pasqualecapuano91@gmail.com', icon: 'logos:google-gmail' }
     ],
     previousCompanies: [
       {
         id: 1,
         name: 'Iliad Italia SPA',
         role: 'Software Engineer',
-        period: '2021 - Present',
+        period: 'June 2024 - Present',
         location: 'Milan, Italy',
-        description: 'I am currently working as a Software Engineer in the Digital Department of Iliad Italia SPA, the fourth mobile operator in Italy. I am part of the team responsible for the development and maintenance of the company\'s website and mobile application.',
+        description: 'I am currently working as a Software Engineer in the Digital Department of Iliad Italia SPA, the fourth mobile operator in Italy. I am part of the B2B team responsible for the development and maintenance of a B2B showcase website, web app for new B2B user subscriptions, and a B2B user self-care web app.',
         technologies: [
           {
             name: 'HTML',
@@ -81,7 +80,7 @@ export const settingStore = defineStore('settings', {
         role: 'Software Engineer',
         period: 'February 2024 - May 2024',
         location: 'Cormano (MI), Italy',
-        description: 'Development and maintenance of web apps in the Automotive/Aerospace fields (Angular, Bootstrap, CSS, TypeScript, DevExpress)',
+        description: 'Development and maintenance of web apps in the Automotive/Aerospace fields',
         technologies: [
           {
             name: 'HTML',
@@ -131,7 +130,7 @@ export const settingStore = defineStore('settings', {
         role: 'Front-End Developer',
         period: 'March 2023 - January 2024',
         location: 'Milan, Italy',
-        description: 'Maintenance and development of web/mobile apps (HTML, CSS, Bootstrap, JavaScript, TypeScript, Angular, Ionic, Firebase, VueJs), development of TV widgets (HTML, CSS, Bootstrap, JavaScript, VueJs), and development of web apps in the banking sector (Angular, XDCE, Bootstrap, CSS, TypeScript).',
+        description: 'Maintenance and development of web/mobile apps, development of TV widgets, and development of web apps in the banking field.',
         technologies: [
           {
             name: 'HTML',
@@ -197,6 +196,69 @@ export const settingStore = defineStore('settings', {
             name: 'Teams',
             icon: 'logos:microsoft-teams'
           }
+
+        ]
+      },
+      {
+        id: 4,
+        name: 'Freelance',
+        role: 'Web/Mobile developer',
+        period: 'January 2020 - February 2023',
+        location: 'Milan, Italy',
+        description: 'Development of web/mobile apps, design, construction, and maintenance of websites, identifying potential clients and developing proposals based on their needs ',
+        technologies: [
+          {
+            name: 'HTML',
+            icon: 'logos:html-5'
+          },
+          {
+            name: 'CSS',
+            icon: 'logos:css-3'
+          },
+          {
+            name: 'SASS',
+            icon: 'logos:sass'
+          },
+          {
+            name: 'Javascript',
+            icon: 'logos:javascript'
+          },
+          {
+            name: 'Typescript',
+            icon: 'logos:typescript-icon'
+          },
+          {
+            name: 'Vue.Js',
+            icon: 'logos:vue'
+          },
+          {
+            name: 'Angular',
+            icon: 'logos:angular-icon'
+          },
+          {
+            name: 'Flutter',
+            icon: 'logos:flutter'
+          },
+          {
+            name: 'Dart',
+            icon: 'logos:dart'
+          },
+          {
+            name: 'Wordpress',
+            icon: 'logos:wordpress-icon'
+          },
+          {
+            name: 'Github',
+            icon: 'logos:github-icon'
+          },
+          {
+            name: 'Git',
+            icon: 'logos:git-icon'
+          },
+          {
+            name: 'Trello',
+            icon: 'logos:trello'
+          },
 
         ]
       },
