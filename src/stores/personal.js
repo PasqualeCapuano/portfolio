@@ -11,10 +11,10 @@ export const settingStore = defineStore('settings', {
     company: 'Iliad Italia SPA 🚀',
     bio: "I am a Software Engineer with a passion for web and mobile development. I am constantly dedicated to creating effective and aesthetically pleasing solutions, well-designed to meet users' needs. With a particular focus on details and usability, I work to deliver high-quality digital experiences that are both functional and enjoyable to use.",
     socials: [
-      { id: 1, name: 'LinkedIn', url: 'https://www.linkedin.com/in/pasquale-capuano/', icon: 'logos:linkedin-icon' },
-      { id: 2, name: 'GitHub', url: 'https://github.com/PasqualeCapuano', icon: 'logos:github-icon' },
-      { id: 3, name: 'Instagram', url: 'https://www.instagram.com/the.real.capu/', icon: 'logos:instagram-icon' },
-      { id: 4, name: 'Facebook', url: 'https://www.facebook.com/pasquale.capuano/', icon: 'logos:facebook' },
+      { id: 1, name: 'LinkedIn', url: 'https://www.linkedin.com/in/pasqualecapuano/', icon: 'logos:linkedin-icon' },
+      { id: 2, name: 'GitHub', url: '', icon: 'logos:github-icon' },
+      { id: 3, name: 'Instagram', url: 'https://www.instagram.com/pasqualecapuano/', icon: 'logos:instagram-icon' },
+      { id: 4, name: 'Facebook', url: 'https://www.facebook.com/pasqualecapuano', icon: 'logos:facebook' },
       { id: 5, name: 'Email', url: 'mailto:pasqualecapuano91@gmail.com', icon: 'logos:google-gmail' }
     ],
     previousCompanies: [
